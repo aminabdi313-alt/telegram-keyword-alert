@@ -6,7 +6,7 @@ import json
 import re
 
 RSS_URL = "https://rsshub.tandav.me/telegram/channel/nasrnews"
-KEYWORDS = ["بازنشستگان", "پرداخت"]
+KEYWORDS = ["مترو", "رایگان"]
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
@@ -74,7 +74,7 @@ def main():
 
     if new_items:
         for title, link in reversed(new_items):
-            message = f"🔔 پست جدید پیدا شد!\n\n{title}\n\n{link}"
+            message = f"🚨 اطلاعیه جدید!\n\n{title}\n\n🔗 {link}"
             send_telegram(message)
 
     state = state[-500:]
