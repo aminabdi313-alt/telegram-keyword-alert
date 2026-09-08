@@ -15,7 +15,7 @@ STATE_FILE = "state.json"
 
 
 def normalize(text):
-    text = text.replace("ي", "ی").replace("ك", "ک")
+    text = text.replace("ي", "ی")
     return re.sub(r"\s+", " ", text).strip().lower()
 
 
