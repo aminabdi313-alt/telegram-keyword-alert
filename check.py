@@ -5,7 +5,7 @@ import os
 import json
 import re
 
-RSS_URL = "https://rsshub.ddns.net/telegram/channel/nasrnews"
+RSS_URL = "https://rsshub.tandav.me/telegram/channel/nasrnews"
 KEYWORDS = ["صادراتی", "کفش"]
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
