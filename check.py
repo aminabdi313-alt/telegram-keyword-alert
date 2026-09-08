@@ -6,7 +6,7 @@ import json
 import re
 
 RSS_URL = "https://rsshub.tandav.me/telegram/channel/nasrnews"
-KEYWORDS = ["صادراتی", "کفش"]
+KEYWORDS = ["بازنشستگان", "پرداخت"]
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
